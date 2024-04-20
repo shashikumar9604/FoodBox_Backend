@@ -38,7 +38,7 @@ jobs:
         path: target/*.jar
 
     - name: List files in target directory
-      run: ls -R ${{ github.workspace }}/target    
+      run: ls -R ${{ github.workspace }}/backend/target    
 
     - name: Debug
       run: ls -R ${{ github.workspace }}/target
