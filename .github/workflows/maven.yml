@@ -37,6 +37,9 @@ jobs:
         name: my-app-jar
         path: target/*.jar
 
+    - name: List files in target directory
+      run: ls -R ${{ github.workspace }}/target    
+
     - name: Debug
       run: ls -R ${{ github.workspace }}/target
    
