@@ -38,7 +38,7 @@ jobs:
         path: target/*.jar
 
     - name: List files in target directory
-      run: ls -R ${{ github.workspace }}/FoodBox_Backend/backend/target
+      run: ls -R ${{ github.workspace }}/target
     
 
     - name: Debug
